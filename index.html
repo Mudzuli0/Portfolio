@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jiara Martins - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f7f3f0;
+      color: #4a4a4a;
+    }
+    .btn-hover {
+      transition: all 0.3s ease-in-out;
+    }
+    .btn-hover:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+    .social-link {
+      transition: transform 0.2s ease-in-out;
+    }
+    .social-link:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+
+  <div class="container-card bg-[#e5dccf] max-w-5xl w-full flex flex-col md:flex-row gap-8 md:gap-12 lg:gap-24 p-8 md:p-12 rounded-2xl shadow-lg">
+
+    <!-- Left Column -->
+    <div class="flex flex-col items-center text-center w-full md:w-1/3">
+      <!-- Profile Image -->
+      <div class="w-40 h-48 overflow-hidden mb-4 rounded-t-full rounded-b-lg border-4 border-gray-400">
+        <!-- 👇 Replace this URL with your own image file path or link -->
+        <img src="IMG_.jpg" alt="Profile Picture" class="w-full h-full object-cover">
+      </div>
+      <h1 class="text-2xl md:text-3xl font-semibold text-gray-800">
+        Mudzuli Ramudzuli<span class="text-lg font-normal text-gray-600"></span>
+      </h1>
+      <p class="text-lg text-gray-600 mb-6">Computer Science Honours Graduate</p>
+
+      <!-- Email Button -->
+      <!-- 👇 Replace the email with your own -->
+      <a href="mailto:ramudzulimode@email.com" 
+   class="btn-hover w-full py-3 px-6 bg-transparent border border-gray-500 rounded-xl text-gray-800 font-medium text-center hover:bg-gray-100 transition-colors duration-200">
+   Email me
+</a>
+
+
+      <!-- Social Icons -->
+      <div class="flex space-x-6 mt-8">
+        <!-- 👇 Replace # with your own social links -->
+        <a href="https://instagram.com/_mudzuli" target="_blank" class="social-link text-gray-700 hover:text-gray-900"><i data-feather="instagram" class="w-6 h-6"></i></a>
+        <a href="https://twitter.com/yourusername" target="_blank" class="social-link text-gray-700 hover:text-gray-900"><i data-feather="twitter" class="w-6 h-6"></i></a>
+        <a href="https://facebook.com/yourusername" target="_blank" class="social-link text-gray-700 hover:text-gray-900"><i data-feather="facebook" class="w-6 h-6"></i></a>
+        <a href="https://www.linkedin.com/in/mudzuli-ramudzuli-116440188" target="_blank" class="social-link text-gray-700 hover:text-gray-900">
+  <i data-feather="linkedin" class="w-6 h-6"></i>
+</a>
+
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="flex flex-col w-full md:w-2/3 text-center md:text-left">
+      <h2 class="text-3xl md:text-4xl font-semibold text-gray-800 mb-6">About Me</h2>
+      <p class="text-gray-700 leading-relaxed mb-8">
+        Motivated Computer Science graduate passionate about data science, analytics, and emerging technologies. Skilled in Python, SQL, and data analysis with proven ability to derive insights from complex datasets and apply technology to solve real-world problems. A fast learner who is eager to grow through mentorship and hands-on projects, with strong analytical, problem-solving, and teamwork abilities. Living with a disability and committed to building a career in one of the most in-demand fields today.
+      </p>
+
+      <!-- Resume & Portfolio Buttons -->
+      <div class="flex flex-col sm:flex-row gap-4">
+        <!-- 👇 Replace # with your resume link -->
+        <a href="MUDZULI'S_CVV.pdf" target="_blank" class="btn-hover w-full sm:w-1/2 py-3 px-6 bg-transparent border border-gray-500 rounded-xl text-gray-800 font-medium text-center hover:bg-gray-100 transition-colors duration-200">Resume</a>
+        <!-- 👇 Replace # with your portfolio link -->
+        
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>feather.replace()</script>
+
+</body>
+</html>
